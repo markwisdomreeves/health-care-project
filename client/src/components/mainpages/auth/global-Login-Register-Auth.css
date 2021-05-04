@@ -1,0 +1,158 @@
+
+/* Login & Register Form styles section */
+:root {
+  --input-padding-x: 1.5rem;
+  --input-padding-y: .45rem
+}
+.card-signin {
+  border: 0;
+  border-radius: 0rem;
+  box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1)
+}
+.card-signin .card-title {
+  margin-bottom: 2rem;
+  font-weight: 600;
+  font-size: 1.3rem;
+  color: #13a2b7;
+}
+.card-signin .card-body {
+  padding: 2rem
+}
+.form-signin {
+  width: 100%
+}
+.form-signin .btn {
+  font-size: 80%;
+  border-radius: 0rem;
+  letter-spacing: .1rem;
+  font-weight: bold;
+  padding: 1rem;
+  transition: all 0.2s
+}
+.form-label-group {
+  position: relative;
+  margin-bottom: 1rem
+}
+.form-label-group input {
+  height: auto
+}
+.form-label-group>input,
+.form-label-group>label {
+  padding: var(--input-padding-y) var(--input-padding-x)
+}
+.form-label-group>label {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  width: 100%;
+  margin-bottom: 0;
+  line-height: 1.5;
+  color: #495057;
+  border: 1px solid transparent;
+  border-radius: .25rem;
+  transition: all .1s ease-in-out;
+}
+.form-control:focus {
+  box-shadow: 10px 0px 0px 0px #ffffff !important;
+}
+.card-signin button {
+  font-size: 14px;
+  color: white !important;
+}
+.card-signin #custom-check-box {
+  font-size: 14px;
+}
+.card-signin #custom-button-style {
+  background-color: #13a2b7 !important;
+  text-transform: uppercase;
+}
+.card-signin #forgot_and_register-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  margin-top: 5px;
+}
+.card-signin #forgot_and_register-box a {
+  padding-right: 5px;
+  padding-left: 5px;
+  color: #13a2b7 !important;
+}
+/* .social-media-box-google {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  margin-top: 5px;
+  margin-bottom: 5px;
+} */
+.social-media-box-google {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.social-media-box-google button {
+  width: 100%;
+  color: black !important;
+  text-transform: capitalize;
+}
+/* .social-media-box-facebook {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+} */
+.social-media-box-facebook button {
+  width: 100%;
+  color: white !important;
+  text-transform: capitalize;
+}
+.main-demo-account-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.main-demo-account-box h3 {
+  margin-top: 5px;
+  font-size: 1.4rem;
+}
+.main-demo-account-box span {
+  font-size: 1.2rem;
+}
+.main-demo-account-box .admin {
+  color: #13a2b7;
+}
+.main-demo-account-box .user {
+  color: brown;
+}
+.register-and-login-style {
+  font-size: 1rem;
+}
+.register-and-login-style a {
+  font-size: 1.2rem;
+}
+#custom-password-container {
+  margin-top: 50px;
+}
+.reset-password-box {
+  margin-bottom: 5px;
+}
+.reset-password-box i {
+  color: green;
+  font-size: 1.2rem;
+}
+@media screen and (max-width: 460px) {
+  .main-demo-account-box h3 {
+    font-size: 1rem;
+  }
+  .main-demo-account-box span {
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 340px) {
+  .card-signin #forgot_and_register-box a {
+    font-size: 14px;
+  }
+}
+
+

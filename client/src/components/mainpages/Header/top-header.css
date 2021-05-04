@@ -1,0 +1,71 @@
+
+
+/* top header styles */
+#top-header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+  padding: 15px;
+  max-width: 100%;
+  height: 100%;
+  background-color: #0c5d69;
+  color: #f1f1f1;
+  z-index: 1000;
+}
+.contact-info-container span {
+  padding: 8px;
+}
+.contact-info-container span i {
+  padding: 5px;
+  color: black;
+}
+.social-media-icons-container {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  flex-direction: row;
+}
+.social-media-icons-container a {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 20px;
+  padding-left: 20px;
+  list-style: none;
+  text-decoration: none;
+  color: white;
+}
+.social-media-icons-container a i {
+  display: flex;
+  justify-content: space-between;
+  color: #f1f1f1;
+  font-size: 1.2rem;
+}
+.social-media-icons-container a i:hover {
+  color: #111111;
+}
+@media screen and (max-width: 968px) {
+  #top-header-container {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 700px) {
+  #main-header-appbar {
+    margin-top: 110px;
+  }
+}
+@media screen and (max-width: 678px) {
+  .contact-info-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .contact-info-container span {
+    padding: 3px;
+  }
+  .contact-info-container span i {
+    padding: 3px;
+  }
+}

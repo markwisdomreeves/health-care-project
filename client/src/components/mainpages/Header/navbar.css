@@ -1,0 +1,113 @@
+
+li a {
+  color: #fff;
+  opacity: 0.7;
+}
+li a:hover {
+  opacity: 1;
+  color: #fff;
+}
+
+/********** Header User Auth Dropdown ***********/
+.drop-nav {
+  position: relative;
+  background-color: #0c5d69;
+  height: 110px;
+}
+.drop-nav li a {
+  margin-top: 0;
+  color: #fff;
+}
+.drop-nav .custom-li-styles {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+.drop-nav img {
+  width: 30px;
+  border-radius: 50%;
+}
+.drop-nav a {
+  text-transform: capitalize;
+  overflow: hidden;
+  font-size: 12px;
+}
+.drop-nav span {
+  font-size: 12px;
+  color: white;
+  padding-left: 4px;
+}
+.drop-nav i {
+  font-size: 12px;
+}
+.drop-nav .dropdown {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  position: absolute;
+  background: rgb(20, 20, 20);
+  width: 60px;
+  top: 50px;
+  display: none;
+  padding-top: 0;
+  padding-bottom: 20px;
+}
+.drop-nav .dropdown li {
+  display: block;
+  height: 1px;
+}
+.drop-nav .dropdown li a {
+  padding-bottom: 0;
+  color: lightgray;
+}
+.drop-nav:hover .dropdown{
+  display: block;
+}
+.login-button-style a {
+  color: white;
+  border: 1px solid white;
+  padding-right: 5px;
+  padding-left: 5px;
+  padding-top: 3px;
+  padding-bottom: 5px;
+  border-radius: 10px;
+}
+.drop-nav .logout-button-style a {
+  color: red !important;
+}
+
+@media screen and (min-width: 660px) {
+  #custom-logo-container {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 660px) {
+ .drop-nav {
+    position: relative;
+    background-color: #0c5d69;
+    height: 110px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .drop-nav .dropdown {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    position: absolute;
+    background: rgb(20, 20, 20);
+    width: 60px;
+    top: 50px;
+    display: none;
+    padding-top: 0;
+    padding-bottom: 20px;
+  }
+  #custom-user-info-box {
+    margin-bottom: 40px;
+  }
+}
+/********** End of Header User Auth Dropdown ***********/

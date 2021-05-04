@@ -1,0 +1,29 @@
+* {
+  list-style: none !important;
+  text-decoration: none !important;
+}
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+
+@import url("./pages/global-pages-style.css");
+@import url("./components/mainpages/profile/profile.css");
+
+@import url("./components/mainpages/Header/navbar.css");
+
+@import url("./components/pageComponents/global-component-styles.css");
+@import url("./components/mainpages/Header/global-top-hero-screen.css");
+@import url("./components/mainpages/auth/global-Login-Register-Auth.css");

@@ -1,0 +1,239 @@
+#global-top-image-container {
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.6);
+  width: 100%;
+  height: 30vh;
+  background-image: url("https://res.cloudinary.com/dpnevg5nt/image/upload/v1618596257/healthCare/sub-hero-img_p2wv44.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  object-fit: cover;
+  margin-bottom: 1rem;
+  padding: 30px;
+}
+.global-top-section-container {
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+}
+.global-top-text-container {
+  text-align: center;
+  color: #f1f1f1;
+}
+.global-h1-text {
+  color: #f1f1f1;
+}
+.global-header-title-container {
+  display: flex;
+  justify-content: center;
+}
+.global-header-title-container i {
+  padding: 5px;
+  font-size: 1.3rem;
+}
+.global-header-title-container span {
+  font-size: 1.3rem;
+  color: lightgray;
+  font-weight: 600;
+}
+.global-top-text-container a {
+  padding-right: 5px;
+  color: white !important;
+  font-weight: 600;
+  font-size: 1.3rem;
+}
+.global-h1-text {
+  text-align: center;
+  font-size: 2rem;
+  text-transform: uppercase;
+}
+@media screen and (max-width: 500px) {
+  .global-h1-text {
+    font-size: 1rem;
+  }
+  .global-header-title-container span {
+    font-size: 1rem;
+  }
+  .global-header-title-container i {
+    font-size: 1rem;
+  }
+  .global-top-text-container a {
+    padding-right: 5px;
+    font-size: 1rem;
+  }
+}
+
+
+
+
+
+/* DETAIL BLOG OAGE CUSTOM STYLES */
+#custom-detail-page-global-top-image-container {
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.6);
+  width: 100%;
+  height: 27vh;
+  background-image: url("https://res.cloudinary.com/dpnevg5nt/image/upload/v1618596257/healthCare/sub-hero-img_p2wv44.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  object-fit: cover;
+  margin-bottom: 1rem;
+  padding: 30px;
+}
+.custom-detail-page-global-top-section {
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+}
+.custom-detail-page-global-text-container {
+  text-align: center;
+  margin-bottom: 0;
+}
+.custom-detail-page-global-h1-text {
+  color: #fff;
+}
+.custom-detail-page-global-header-title-container a {
+  color: lightgray !important;
+}
+.custom-detail-page-global-header-title-container {
+  display: flex;
+  justify-content: center;
+}
+.custom-detail-page-global-header-title-container i {
+  padding: 5px;
+  font-size: 1rem;
+}
+.custom-detail-page-global-header-title-container span {
+  font-size: 1rem;
+  color: lightgray;
+  font-weight: 600;
+}
+.custom-detail-page-global-h1-text {
+  text-align: center;
+  font-size: 1.6rem;
+  text-transform: uppercase;
+}
+
+/* Sub Hero user details styles */
+.custom-detail-page-global-top-image-container {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+}
+.custom-detail-page-global-text-box {
+  margin-top: 10px;
+}
+.custom-detail-page-global-text-box h3 {
+  font-size: 1.2rem;
+  color: white;
+}
+.custom-detail-page-global-avatar-img-box {
+  padding: 10px;
+}
+.custom-detail-page-global-avatar-img-box img {
+  width: 28px;
+  max-height: 30px;
+  border-radius: 50%;
+}
+.custom-detail-page-global-avatar-img-box span {
+  font-size: 14px;
+  color: white;
+  padding: 7px;
+}
+.custom-detail-page-global-avatar-img-box i {
+  font-size: 7px;
+  color: white;
+}
+/* End of Sub Hero user details styles */
+
+@media screen and (max-width: 600px) {
+  /* Sub Hero user details styles */
+  .custom-blog-detail-page-style {
+    margin-bottom: 0;
+  }
+  .blog-page-detail-text-box {
+    margin-top: 2px;
+  }
+  .custom-detail-page-global-h1-text {
+    font-size: 1rem;
+  }
+  .blog-page-detail-text-box h3 {
+    font-size: 1rem;
+  }
+  .custom-detail-page-global-avatar-img-box {
+    padding: 2px;
+  }
+  .custom-detail-page-global-avatar-img-box span {
+    font-size: 14px;
+    padding: 4px;
+  }
+  .custom-detail-page-global-avatar-img-box i {
+    font-size: 4px;
+  }
+  .custom-detail-page-global-header-title-container i {
+    padding: 5px;
+    font-size: 14px;
+  }
+  .custom-detail-page-global-header-title-container span {
+    font-size: 14px;
+    color: lightgray;
+    font-weight: 600;
+  }
+  /* End of Sub Hero user details styles */
+
+}
+
+@media screen and (max-width: 380px) {
+  /* Sub Hero user details styles */
+  .custom-blog-detail-page-style {
+    margin-bottom: 0;
+  }
+  .blog-page-detail-text-box {
+    margin-top: 0;
+  }
+  .custom-detail-page-global-h1-text {
+    font-size: 14px;
+  }
+  .blog-page-detail-text-box h3 {
+    font-size: 12px;
+  }
+  .custom-detail-page-global-avatar-img-box {
+    padding: 0;
+  }
+  .custom-detail-page-global-avatar-img-box span {
+    font-size: 10px;
+    padding: 3px;
+  }
+  .custom-detail-page-global-avatar-img-box img {
+    width: 24px;
+    max-height: 24px;
+  }
+  .custom-detail-page-global-avatar-img-box i {
+    font-size: 4px;
+  }
+  .custom-detail-page-global-header-title-container i {
+    padding: 5px;
+    font-size: 10px;
+  }
+  .custom-detail-page-global-header-title-container a {
+    font-size: 10px;
+    color: lightgray;
+  }
+  .custom-detail-page-global-header-title-container span {
+    font-size: 10px;
+  }
+  .custom-detail-page-global-h1-text {
+    font-size: 14px;
+  }
+  .custom-detail-page-global-text-box {
+    margin-top: 4px;
+  }
+  .custom-detail-page-global-text-box h3 {
+    font-size: 10px;
+    color: white;
+  }
+  /* End of Sub Hero user details styles */
+
+}
+
