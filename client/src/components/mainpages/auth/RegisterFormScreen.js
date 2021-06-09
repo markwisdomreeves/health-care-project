@@ -71,6 +71,12 @@ function RegisterFormScreen() {
 
                         <h5 className="card-title text-center">Register Form</h5>
 
+                       <div class="alert alert-primary d-flex align-items-center" role="alert">
+                          <div>
+                            We will email you an account activation link to activate your account.
+                          </div>
+                        </div>
+
                         <form className="form-signin" onSubmit={handleSubmit}>
                         <div className="form-label-group">
                           <input
