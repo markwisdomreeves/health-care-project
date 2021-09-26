@@ -3,9 +3,9 @@ const fs = require('fs')
 
 
 cloudinary.config({
-    cloud_name: "CLOUD NAME",
-    api_key: "API KEY",
-    api_secret: "API SECRET KEY"
+    cloud_name: "ADD YOUR CLOUD NAME",
+    api_key: "ADD YOUR API KEY",
+    api_secret: "ADD YOUR API SECRET KEY"
 })
 
 
